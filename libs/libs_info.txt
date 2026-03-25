@@ -1,0 +1,24 @@
+alerty.js
+	https://github.com/undead25/alerty
+	https://github.com/undead25/alerty/blob/v.0.0.1/dist/js/alerty.js
+	Copyright (C) 2016 undead25, released under the MIT license.
+FileSaver.js
+	https://github.com/eligrey/FileSaver.js
+	https://github.com/eligrey/FileSaver.js/blob/v2.0.4/dist/FileSaver.js
+	Copyright (c) 2016 Eli Grey, released under the MIT license.
+googleDocsUtil.js -
+	https://github.com/JensPLarsen/ChromeExtension-GoogleDocsUtil
+	https://github.com/JensPLarsen/ChromeExtension-GoogleDocsUtil/blob/master/googleDocsUtil.js
+	Copyright (c) 2017 Dictus ApS, released under the MIT license.
+mark.js
+	https://markjs.io/
+	https://github.com/julmot/mark.js/blob/greenkeeper/eslint-5.14.0/dist/mark.js
+	Copyright (c) 2014–2018 Julian Kuhnel, released under the MIT license.
+multiselect.js
+	https://github.com/brianvoe/slim-select
+	https://github.com/brianvoe/slim-select/blob/v1.27.1/dist/slimselect.js
+	Copyright (c) 2017 Brian Voelker, released under the MIT license.
+vanilla-picker.js
+	https://vanilla-picker.js.org/
+	https://github.com/Sphinxxxx/vanilla-picker/blob/v2.12.1/dist/vanilla-picker.js
+	Copyright (c) 2017-2019 Andreas Borgen, Adam Brooks, released under the ISC license.

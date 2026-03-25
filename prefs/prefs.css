@@ -1,0 +1,88 @@
+.ssk-number
+{
+	width: 45px;
+}
+
+.ssk-indent
+{
+	display: inline-block;
+
+	width: 100px;
+}
+
+.ssk-details
+{
+	margin: 5px;
+	padding: 5px;
+
+	border: 1px solid #808080;
+}
+
+.ssk-summary
+{
+	font-weight: bold;
+}
+
+.ssk-hl-exmpl
+{
+	display: inline-block;
+
+	width: 22px;
+	height: 22px;
+
+	vertical-align: text-bottom;
+}
+
+.ssk-color-btn
+{
+	display: inline-block;
+
+	width: 22px;
+	height: 22px;
+	margin: 0;
+	padding: 0;
+
+	vertical-align: text-bottom;
+
+	border: 3px solid #acacac;
+}
+
+.ssk-color-btn:hover
+{
+	border: 3px solid #5d6d79;
+	border-radius: 2px;
+}
+
+.ssk-contribute-panel
+{
+	margin: 0;
+	padding: 5px;
+
+	border: 1px solid #bbbbbb;
+	border-radius: 3px;
+	background: -webkit-linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100px, #e5e5e5 100%);
+	background:         linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100px, #e5e5e5 100%);
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+
+.ssk-contribute-btn:link,
+.ssk-contribute-btn:visited
+{
+	font-weight: 600;
+
+	display: inline-block;
+
+	padding: 10px 15px;
+
+	text-align: center;
+	text-decoration: none;
+
+	color: white;
+	background-color: #329af0;
+}
+
+.ssk-contribute-btn:hover,
+.ssk-contribute-btn:active
+{
+	background-color: #72c3fc;
+}

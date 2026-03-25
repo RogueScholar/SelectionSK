@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.ssk-panel {
+	font-size: 0 !important;
+	line-height: normal !important;
+
+	position: absolute !important;
+	z-index: 2147483647 !important;
+
+	margin: 0 !important;
+	padding: 1px !important;
+
+	-webkit-transition: transform 0.1s ease-out, opacity 0.1s ease-out !important;
+	-moz-transition: transform 0.1s ease-out, opacity 0.1s ease-out !important;
+	transition: transform 0.1s ease-out, opacity 0.1s ease-out !important;
+	text-align: initial !important;
+
+	opacity: 1 !important;
+	border: 1px solid #979797 !important;
+	border-radius: 2px !important;
+	background-color: #f0f0f0 !important;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7) !important;
+
+	direction: ltr !important;
+}
+
+.ssk-panel-row {
+	display: block !important;
+	overflow: auto !important;
+
+	padding: 1px !important;
+
+	border: 0 !important;
+}
+
+.ssk-panel-separator {
+	display: inline-block !important;
+
+	box-sizing: content-box !important;
+	min-width: 1px !important;
+	max-width: 1px !important;
+	min-height: 22px !important;
+	max-height: 22px !important;
+	padding: 0 !important;
+
+	border-left: 1px solid #ffffff !important;
+	background-color: #aaaaaa !important;
+}
+
+.ssk-panel-separator-placeholder {
+	display: inline-block !important;
+
+	box-sizing: content-box !important;
+	min-width: 1px !important;
+	max-width: 1px !important;
+	min-height: 22px !important;
+	max-height: 22px !important;
+	padding: 0 !important;
+
+	border-left: 1px solid transparent !important;
+	background-color: transparent !important;
+}
+
+.ssk-panel-img {
+	display: inline !important;
+
+	box-sizing: content-box !important;
+	min-width: 18px !important;
+	max-width: 18px !important;
+	min-height: 18px !important;
+	max-height: 18px !important;
+	margin: 0 !important;
+	padding: 2px;
+	vertical-align: baseline !important;
+
+	cursor: pointer !important;
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	transition: none !important;
+	pointer-events: auto !important;
+
+	border: 2px solid transparent !important;
+	background: transparent !important;
+
+	-webkit-filter: none !important;
+	filter: none !important;
+}
+
+.ssk-panel-img:hover {
+	border: 2px solid #404040 !important;
+	border-radius: 2px !important;
+}

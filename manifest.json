@@ -1,0 +1,105 @@
+// SPDX-FileCopyrightText: © 2011–2023, Andrey Shemetov <ashemetov@gmail.com>
+//
+// SPDX-License-Identifier: MPL-2.0 OR GPL-3.0-or-later OR LGPL-3.0-or-later
+{
+  "author": "Andrey Shemetov",
+  "background": {
+    "scripts": [
+      "background.js",
+      "background_requests.js",
+      "common.js",
+      "favicons.js",
+      "opensearch.js",
+      "utils.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": {
+      "128": "icons/SelectionSK_128.png",
+      "16": "icons/SelectionSK_16.png",
+      "24": "icons/SelectionSK_24.png",
+      "32": "icons/SelectionSK_32.png",
+      "48": "icons/SelectionSK_48.png",
+      "64": "icons/SelectionSK_64.png"
+    },
+    "default_title": "Disable SelectionSK"
+  },
+  "commands": {
+    "conversion": {
+      "description": "Conversion Tool",
+      "suggested_key": {
+        "default": "Ctrl+Shift+1"
+      }
+    },
+    "page_translate": {
+      "description": "Page Translate",
+      "suggested_key": {
+        "default": "Ctrl+Shift+0"
+      }
+    }
+  },
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "css": [
+        "css/colors.css",
+        "css/context_button.css",
+        "css/context_menu.css",
+        "css/context_panel.css",
+        "css/converter.css",
+        "css/translator.css"
+      ],
+      "js": [
+        "libs/googleDocsUtil.js",
+        "libs/mark.js",
+        "common.js",
+        "consts.js",
+        "content.js",
+        "converter.js",
+        "opensearch.js",
+        "translator.js",
+        "utils.js"
+      ],
+      "match_about_blank": true,
+      "matches": ["\u003Call_urls>"],
+      "run_at": "document_start"
+    }
+  ],
+  "default_locale": "en",
+  "description": "__MSG_addonDescChr__",
+  "differential_fingerprint": "1.2c1a7f3c998335d961a0da011da071a074061ad00b277d92a953611c4d8982bb",
+  "icons": {
+    "128": "icons/SelectionSK_128.png",
+    "16": "icons/SelectionSK_16.png",
+    "24": "icons/SelectionSK_24.png",
+    "32": "icons/SelectionSK_32.png",
+    "48": "icons/SelectionSK_48.png",
+    "64": "icons/SelectionSK_64.png"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl5TLWxNDAtq+kryKSZTBbLTT6OWy2smHmS7JehDsM1dUEliik5Wteb9wEri8cqtaCoKO7S1OxZ+5/kvN1dEzoEGw64/5ntdqQixsFDj23UyWonkHwXbSfgbVWdeo35Cj+79eYwYRbPor++uaICKNXRVDokhoEr3hVLaIDgpuysHB2coN36gnXFY5gW80FWaWAMMr/QtR1pN5VIsNVmkhBBMjHAS9XMYIg29UyLrUsyGExiK+g32RMupUQU2tD04AWBhi8JBHdETe8UxvQabQ0xIjBB0p8/imlWTU9S8lGa/+HiNhRiJpvyV0s/ur6JE4ZyoE5cH/YKeHgPoXCrEbbwIDAQAB",
+  "manifest_version": 2,
+  "name": "SelectionSK",
+  "omnibox": {
+    "keyword": "t"
+  },
+  "options_ui": {
+    "open_in_tab": true,
+    "page": "prefs/prefs.html"
+  },
+  "permissions": [
+    "\u003Call_urls>",
+    "alarms",
+    "bookmarks",
+    "clipboardRead",
+    "clipboardWrite",
+    "contextMenus",
+    "notifications",
+    "storage",
+    "tabs",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "6.0",
+  "web_accessible_resources": ["icons/*"]
+}

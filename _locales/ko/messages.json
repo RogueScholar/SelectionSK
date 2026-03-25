@@ -1,0 +1,502 @@
+{
+   "addonDesc": {
+      "description": "description of the add-on: 'We all know that you can't do good work without first having good tools - now with SelectionSK you can assemble the best tools for helping you browse the Web, and they'll even appear right when you need them without any extra clicks!' ",
+      "message": "우리 모두 알고 있는 당신이 할 수 없이 처음 데 SelectionSK-지금 좋은 도구는 웹을 탐색할 수 돕는 최고의 도구를 어셈블할 수 있습니다 그리고 그들은 심지어 표시 됩니다 오른쪽 어떤 추가 클릭 하지 않고 필요할 때 좋은 작품!"
+   },
+   "addonDescChr": {
+      "description": "description of the add-on (max 132 characters): 'Pops up the user menu with useful tools (copy, search, translation, highlight, etc.) when the text is selected with the mouse.' ",
+      "message": "텍스트를 마우스로 선택하면 유용한 도구 (복사, 검색, 번역, 강조 표시 등)로 사용자 메뉴를 표시합니다."
+   },
+   "txtCancel": {
+      "description": "text of 'Cancel' ",
+      "message": "취소"
+   },
+   "txtConvCurrency": {
+      "description": "text of 'Currency' ",
+      "message": "통화"
+   },
+   "txtConvLen": {
+      "description": "text of 'Length' ",
+      "message": "길이"
+   },
+   "txtConvMass": {
+      "description": "text of 'Mass' ",
+      "message": "질량"
+   },
+   "txtConvTemperature": {
+      "description": "text of 'Temperature' ",
+      "message": "온도"
+   },
+   "txtConvert": {
+      "description": "text of 'Convert' menu item",
+      "message": "변하게 하다"
+   },
+   "txtCopy": {
+      "description": "text of 'Copy' menu item",
+      "message": "복사하기"
+   },
+   "txtCopyHtml": {
+      "description": "text of 'Copy as HTML' menu item",
+      "message": "HTML로 복사"
+   },
+   "txtCopyPlain": {
+      "description": "text of 'Copy as plain text' menu item",
+      "message": "일반 텍스트로 복사"
+   },
+   "txtCopyTranslation": {
+      "description": "text of 'Copy translation to clipboard' ",
+      "message": "번역을 클립보드로 복사"
+   },
+   "txtCopyUrlAll": {
+      "description": "text of 'Copy all' menu item",
+      "message": "모두 복사"
+   },
+   "txtCut": {
+      "description": "text of 'Cut' menu item",
+      "message": "잘라내기"
+   },
+   "txtDelete": {
+      "description": "text of 'Delete' menu item",
+      "message": "삭제"
+   },
+   "txtDisableAddon": {
+      "description": "text of 'Disable SelectionSK popup on' ",
+      "message": "SelectionSK 팝업을 사용하지 않도록 설정"
+   },
+   "txtEnableAddon": {
+      "description": "text of 'Enable SelectionSK popup on' ",
+      "message": "SelectionSK 팝업 사용 설정"
+   },
+   "txtFedex": {
+      "description": "text of 'FedEx Tracking' menu item",
+      "message": "FedEx Tracking"
+   },
+   "txtGoogleTranslate": {
+      "description": "text of 'Google Translate' menu item",
+      "message": "구글 번역"
+   },
+   "txtHighlight": {
+      "description": "text of 'Highlight all' menu item",
+      "message": "모두 강조 표시"
+   },
+   "txtInitDictionary": {
+      "description": "text of 'Dictionary' bookmark",
+      "message": "사전"
+   },
+   "txtInitSearch": {
+      "description": "text of 'Search' bookmark",
+      "message": "검색"
+   },
+   "txtLngTools": {
+      "description": "text of 'Language tools' menu item",
+      "message": "언어 도구"
+   },
+   "txtMailto": {
+      "description": "text of 'Share via e-mail' menu item",
+      "message": "전자 메일을 통해 공유"
+   },
+   "txtMsTranslator": {
+      "description": "text of 'Microsoft Translatot' menu item",
+      "message": "Microsoft Translator"
+   },
+   "txtOK": {
+      "description": "text of 'OK' ",
+      "message": "승인"
+   },
+   "txtOpenUrl": {
+      "description": "text of 'Open as URL' menu item",
+      "message": "주소로 열기"
+   },
+   "txtOpenUrlAll": {
+      "description": "text of 'Open all in tabs' menu item",
+      "message": "탭에서 모두 열기"
+   },
+   "txtPaste": {
+      "description": "text of 'Paste' menu item",
+      "message": "붙여넣기"
+   },
+   "txtPrefAllowACInTextBox": {
+      "description": "text of preferences 'Allow auto-copy in text boxes' ",
+      "message": "텍스트 상자에 자동 복사 허용"
+   },
+   "txtPrefAllowInTextBox": {
+      "description": "text of preferences 'Allow in text boxes' ",
+      "message": "텍스트 상자에서 허용"
+   },
+   "txtPrefAppearance": {
+      "description": "text of preferences 'Appearance' ",
+      "message": "모양"
+   },
+   "txtPrefAutoCopy": {
+      "description": "text of preferences 'Automatically copy selection to clipboard' ",
+      "message": "선택한 항목을 클립 보드로 자동 복사"
+   },
+   "txtPrefAutoHighlight": {
+      "description": "text of preferences 'Highlight selected text when opening a bookmark' ",
+      "message": "북마크를 열 때 선택된 텍스트 하이라이트하기"
+   },
+   "txtPrefAutoSelectColors": {
+      "description": "text of preferences 'Select colors automatically' ",
+      "message": "자동으로 색상 선택"
+   },
+   "txtPrefBackupToFile": {
+      "description": "text of preferences 'Backup to file' ",
+      "message": "파일로 백업하기"
+   },
+   "txtPrefBkColor": {
+      "description": "text of preferences 'Background' ",
+      "message": "배경"
+   },
+   "txtPrefBlinkOnCopy": {
+      "description": "text of preferences 'Blink on auto-copy' ",
+      "message": "자동 복사시 깜박임"
+   },
+   "txtPrefBookmarkFolder": {
+      "description": "text of preferences 'Bookmark folder' ",
+      "message": "북마크 폴더"
+   },
+   "txtPrefBookmarks": {
+      "description": "text of preferences 'Bookmarks' ",
+      "message": "북마크"
+   },
+   "txtPrefBorderColor": {
+      "description": "text of preferences 'Border' ",
+      "message": "테두리"
+   },
+   "txtPrefBoth": {
+      "description": "text of preferences 'Both' ",
+      "message": "양자 모두"
+   },
+   "txtPrefColor": {
+      "description": "text of preferences 'Color' ",
+      "message": "색깔"
+   },
+   "txtPrefColors": {
+      "description": "text of preferences 'Colors' ",
+      "message": "색상"
+   },
+   "txtPrefConfigureShortcuts": {
+      "description": "text of preferences 'Configure keyboard shortcuts' ",
+      "message": "키보드 단축키 구성"
+   },
+   "txtPrefContextMenu": {
+      "description": "text of preferences 'Context menu' ",
+      "message": "컨텍스트 메뉴"
+   },
+   "txtPrefContribute": {
+      "description": "text of preferences 'Donate' ",
+      "message": "기부하기"
+   },
+   "txtPrefContributeDev": {
+      "description": "text of preferences 'If this extension adds value to your web browsing experience, please support its continued development by making a small donation. Your thoughtfulness is truly appreciated.' ",
+      "message": "이 확장 기능의 개발자가 작은 기여로 지속적인 개발을 지원해 줄 것을 요청합니다."
+   },
+   "txtPrefConversion": {
+      "description": "text of preferences 'Conversion' ",
+      "message": "변환"
+   },
+   "txtPrefConversionDestCur": {
+      "description": "text of preferences 'Destination currency' ",
+      "message": "도착 통화"
+   },
+   "txtPrefConversionDestLen": {
+      "description": "text of preferences 'Destination length' ",
+      "message": "대상 길이"
+   },
+   "txtPrefConversionDestMass": {
+      "description": "text of preferences 'Destination mass' ",
+      "message": "대상 질량"
+   },
+   "txtPrefConversionDestTemp": {
+      "description": "text of preferences 'Destination temperature' ",
+      "message": "목적지 온도"
+   },
+   "txtPrefConverterColor": {
+      "description": "text of preferences 'Converter' ",
+      "message": "변환기"
+   },
+   "txtPrefCountWords": {
+      "description": "text of preferences 'Enable word counter' ",
+      "message": "단어 카운터 사용"
+   },
+   "txtPrefCtrlC": {
+      "description": "text of preferences 'Ctrl+C copies the page info when nothing selected' ",
+      "message": "Ctrl+C 는 아무것도 선택하지 않으면 페이지 정보를 복사합니다"
+   },
+   "txtPrefEnableSelection": {
+      "description": "text of preferences 'Allow text selection on websites that disable this functionality' ",
+      "message": "이 기능을 비활성화하는 웹 사이트에서 텍스트 선택 허용"
+   },
+   "txtPrefEngineColor": {
+      "description": "text of preferences 'Translator' ",
+      "message": "번역기"
+   },
+   "txtPrefFaviconService": {
+      "description": "text of preferences 'Icons source' ",
+      "message": "아이콘 소스"
+   },
+   "txtPrefFontSize": {
+      "description": "text of preferences 'Font size' ",
+      "message": "글자 크기"
+   },
+   "txtPrefGeneral": {
+      "description": "text of preferences 'General' ",
+      "message": "일반"
+   },
+   "txtPrefHideOnMoveMouseAway": {
+      "description": "text of preferences 'Hide when mouse moved away' ",
+      "message": "마우스가 사라지면 숨기기"
+   },
+   "txtPrefHideOnScroll": {
+      "description": "text of preferences 'Hide on page scroll' ",
+      "message": "페이지 스크롤에서 숨기기"
+   },
+   "txtPrefHighligher": {
+      "description": "text of preferences 'Highlighter' ",
+      "message": "형광펜"
+   },
+   "txtPrefHistory": {
+      "description": "text of preferences 'Version History' ",
+      "message": "버전 목록"
+   },
+   "txtPrefHold": {
+      "description": "text of preferences 'Hold' ",
+      "message": "보류"
+   },
+   "txtPrefIconPadding": {
+      "description": "text of preferences 'Icon padding' ",
+      "message": "아이콘 패딩"
+   },
+   "txtPrefIconSize": {
+      "description": "text of preferences 'Icon size' ",
+      "message": "아이콘 크기"
+   },
+   "txtPrefIconsColor": {
+      "description": "text of preferences 'Icons color' ",
+      "message": "아이콘 색상"
+   },
+   "txtPrefIgnorePunctuation": {
+      "description": "text of preferences 'Ignore punctuation in the selected text' ",
+      "message": "선택한 텍스트의 구두점 무시"
+   },
+   "txtPrefImportSearchEngines": {
+      "description": "text of preferences 'Import search engines' ",
+      "message": "검색 엔진 가져 오기"
+   },
+   "txtPrefInstantConversionKey": {
+      "description": "text of preferences 'for instant conversion' ",
+      "message": "즉석 전환"
+   },
+   "txtPrefInstantHighlighKey": {
+      "description": "text of preferences 'for instant highlight' ",
+      "message": "즉각적인 하이라이트"
+   },
+   "txtPrefInstantTranslationKey": {
+      "description": "text of preferences 'for instant translation' ",
+      "message": "즉석 번역"
+   },
+   "txtPrefKeepPopup": {
+      "description": "text of preferences 'Keep popup open after action taken' ",
+      "message": "조치를 취한 후에 팝업을 열어 두십시오"
+   },
+   "txtPrefKeepSelection": {
+      "description": "text of preferences 'Keep selection after action taken' ",
+      "message": "조치를 취한 후에 선택 유지"
+   },
+   "txtPrefLngColor": {
+      "description": "text of preferences 'Language' ",
+      "message": "언어"
+   },
+   "txtPrefLocalize": {
+      "description": "text of preferences 'Help localize SelectionSK with Crowdin' ",
+      "message": "Crowdin과 함께 SelectionSK를 현지화하는 데 도움"
+   },
+   "txtPrefMaintenance": {
+      "description": "text of preferences 'Maintenance' ",
+      "message": "유지"
+   },
+   "txtPrefMenu": {
+      "description": "text of preferences 'Menu' ",
+      "message": "메뉴"
+   },
+   "txtPrefNewIssue": {
+      "description": "text of preferences 'Submit a suggestion or report a bug' ",
+      "message": "제안 제출 또는 버그보고"
+   },
+   "txtPrefOpenIn": {
+      "description": "text of preferences 'Open in' ",
+      "message": "에서 열기"
+   },
+   "txtPrefOpenInBgTab": {
+      "description": "text of preferences 'New background tab' ",
+      "message": "새 배경 탭"
+   },
+   "txtPrefOpenInCurrTab": {
+      "description": "text of preferences 'Current tab' ",
+      "message": "현재 탭"
+   },
+   "txtPrefOpenInNewTab": {
+      "description": "text of preferences 'New tab' ",
+      "message": "새 탭"
+   },
+   "txtPrefPadding": {
+      "description": "text of preferences 'Padding' ",
+      "message": "심"
+   },
+   "txtPrefPanel": {
+      "description": "text of preferences 'Pane' ",
+      "message": "패널"
+   },
+   "txtPrefPanelCols": {
+      "description": "text of preferences 'columns' ",
+      "message": "기둥"
+   },
+   "txtPrefPanelRows": {
+      "description": "text of preferences 'rows' ",
+      "message": "행"
+   },
+   "txtPrefPopup": {
+      "description": "text of preferences 'Menu popup' ",
+      "message": "메뉴 팝업"
+   },
+   "txtPrefPreferences": {
+      "description": "text of preferences 'Preferences' ",
+      "message": "설정"
+   },
+   "txtPrefRestoreBookmarks": {
+      "description": "text of preferences 'Restore bookmarks' ",
+      "message": "북마크 복원"
+   },
+   "txtPrefRestoreBookmarksQ": {
+      "description": "text of preferences 'All bookmarks will be replaced with default values. Continue?' ",
+      "message": "모든 책갈피는 기본값으로 바뀝니다. 잇다?"
+   },
+   "txtPrefRestoreFromFile": {
+      "description": "text of preferences 'Restore from file' ",
+      "message": "파일로부터 복원하기"
+   },
+   "txtPrefRestorePrefs": {
+      "description": "text of preferences 'Restore defaults' ",
+      "message": "기본값으로 복원"
+   },
+   "txtPrefRestorePrefsQ": {
+      "description": "text of preferences 'All preferences will be replaced with default values. Continue?' ",
+      "message": "모든 기본 설정이 기본값으로 바뀝니다. 잇다?"
+   },
+   "txtPrefReuseContainer": {
+      "description": "text of preferences 'Open new tab in the container it was opened from' ",
+      "message": "열린 컨테이너에서 새 탭 열기"
+   },
+   "txtPrefRoundness": {
+      "description": "text of preferences 'Roundness' ",
+      "message": "둥글기"
+   },
+   "txtPrefSave": {
+      "description": "text of preferences 'Save changes' ",
+      "message": "변경사항 저장"
+   },
+   "txtPrefSaved": {
+      "description": "text of preferences 'Your preferences have been saved' ",
+      "message": "환경설정이 저장되었습니다"
+   },
+   "txtPrefShortcutPageTranslate": {
+      "description": "text of preferences 'Keyboard shortcut for page translate' ",
+      "message": "페이지 번역을위한 키보드 단축키"
+   },
+   "txtPrefShortcutShowConverter": {
+      "description": "text of preferences 'Keyboard shortcut for show converter' ",
+      "message": "쇼 변환기를위한 키보드 단축키"
+   },
+   "txtPrefShow": {
+      "description": "text of preferences 'Show' ",
+      "message": "표시"
+   },
+   "txtPrefShowAs": {
+      "description": "text of preferences 'Show as' ",
+      "message": "다음으로 표시"
+   },
+   "txtPrefShowItems": {
+      "description": "text of preferences 'Show items' ",
+      "message": "항목 표시"
+   },
+   "txtPrefTemplate": {
+      "description": "text of preferences 'template' ",
+      "message": "주형"
+   },
+   "txtPrefTranscriptionOwnLine": {
+      "description": "text of preferences 'Transcription on the separate line' ",
+      "message": "별도 줄에 전사"
+   },
+   "txtPrefTranslation": {
+      "description": "text of preferences 'Translation' ",
+      "message": "번역"
+   },
+   "txtPrefTranslationDefTrans": {
+      "description": "text of preferences 'Default translator' ",
+      "message": "기본 번역기"
+   },
+   "txtPrefTranslationDestLng": {
+      "description": "text of preferences 'Destination language' ",
+      "message": "대상 언어"
+   },
+   "txtPrefTranslationSelectedLng": {
+      "description": "text of preferences 'Use only following languages' ",
+      "message": "다음 언어만 사용"
+   },
+   "txtPrefUnitColor": {
+      "description": "text of preferences 'Unit' ",
+      "message": "유닛"
+   },
+   "txtPrefUnobtrusive": {
+      "description": "text of preferences 'Unobtrusive mode' ",
+      "message": "눈에 거슬리지 않는 모드"
+   },
+   "txtReverse": {
+      "description": "text of 'Reverse' ",
+      "message": "역"
+   },
+   "txtSendTo": {
+      "description": "text of 'Send '%s' to' ",
+      "message": "'%s' 을"
+   },
+   "txtShowConverter": {
+      "description": "text of 'Show Converter' ",
+      "message": "변환기 표시"
+   },
+   "txtTracking": {
+      "description": "text of 'Tracking numbers' menu item",
+      "message": "송장번호"
+   },
+   "txtTranslatePage": {
+      "description": "text of 'Translate this page' ",
+      "message": "페이지 번역"
+   },
+   "txtTranslateReverse": {
+      "description": "text of 'Swap languages' ",
+      "message": "언어 교환"
+   },
+   "txtTranslationDetails": {
+      "description": "text of 'Open translation in new tab' ",
+      "message": "새창에서 자세히 번역하기"
+   },
+   "txtUPS": {
+      "description": "text of 'UPS Tracking' menu item",
+      "message": "UPS Tracking"
+   },
+   "txtUSPS": {
+      "description": "text of 'USPS Tracking' menu item",
+      "message": "USPS Tracking"
+   },
+   "txtUrbanDictionary": {
+      "description": "text of 'Urban Dictionary' menu item",
+      "message": "Urban Dictionary"
+   },
+   "txtWordnikDictionary": {
+      "description": "text of 'Wordnik Thesaurus (en)' menu item",
+      "message": "Wordnik 유의어 사전 (en)"
+   },
+   "txtYandexTranslate": {
+      "description": "text of 'Yandex Translate' menu item",
+      "message": "Yandex 번역"
+   }
+}

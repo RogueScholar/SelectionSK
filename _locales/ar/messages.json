@@ -1,0 +1,502 @@
+{
+   "addonDesc": {
+      "description": "description of the add-on: 'We all know that you can't do good work without first having good tools - now with SelectionSK you can assemble the best tools for helping you browse the Web, and they'll even appear right when you need them without any extra clicks!' ",
+      "message": "كلنا نعلم أنه لا يمكنك القيام بعمل جيد دون الحصول أولًا على أدوات جيدة - الآن مع SelectionSK يمكنك تجميع أفضل الأدوات لمساعدتك على تصفح الوب، وسيظهرون بشكل صحيح عندما تحتاجهم بدون أي ضغطات إضافية!"
+   },
+   "addonDescChr": {
+      "description": "description of the add-on (max 132 characters): 'Pops up the user menu with useful tools (copy, search, translation, highlight, etc.) when the text is selected with the mouse.' ",
+      "message": "يفتح نافذة قائمة المستخدم المنبثقة ومع أدوات مفيدة (نسخ، بحث، ترجمة، تظليل النص، إلخ) عندما يتم تحديد النص بالماوس."
+   },
+   "txtCancel": {
+      "description": "text of 'Cancel' ",
+      "message": "إلغاء"
+   },
+   "txtConvCurrency": {
+      "description": "text of 'Currency' ",
+      "message": "عملة"
+   },
+   "txtConvLen": {
+      "description": "text of 'Length' ",
+      "message": "طول"
+   },
+   "txtConvMass": {
+      "description": "text of 'Mass' ",
+      "message": "كتلة"
+   },
+   "txtConvTemperature": {
+      "description": "text of 'Temperature' ",
+      "message": "حرارة"
+   },
+   "txtConvert": {
+      "description": "text of 'Convert' menu item",
+      "message": "تحويل"
+   },
+   "txtCopy": {
+      "description": "text of 'Copy' menu item",
+      "message": "نسخ"
+   },
+   "txtCopyHtml": {
+      "description": "text of 'Copy as HTML' menu item",
+      "message": "نسخ كـHTML"
+   },
+   "txtCopyPlain": {
+      "description": "text of 'Copy as plain text' menu item",
+      "message": "نسخ كنص صافي"
+   },
+   "txtCopyTranslation": {
+      "description": "text of 'Copy translation to clipboard' ",
+      "message": "نسخ الترجمة إلى الحافظة"
+   },
+   "txtCopyUrlAll": {
+      "description": "text of 'Copy all' menu item",
+      "message": "نسخ الكل"
+   },
+   "txtCut": {
+      "description": "text of 'Cut' menu item",
+      "message": "قص"
+   },
+   "txtDelete": {
+      "description": "text of 'Delete' menu item",
+      "message": "حذف"
+   },
+   "txtDisableAddon": {
+      "description": "text of 'Disable SelectionSK popup on' ",
+      "message": "تعطيل نافذة SelectionSK المنبثقة"
+   },
+   "txtEnableAddon": {
+      "description": "text of 'Enable SelectionSK popup on' ",
+      "message": "تفعيل نافذة SelectionSK المنبثقة"
+   },
+   "txtFedex": {
+      "description": "text of 'FedEx Tracking' menu item",
+      "message": "تعقب FedEx"
+   },
+   "txtGoogleTranslate": {
+      "description": "text of 'Google Translate' menu item",
+      "message": "ترجمة گوگل"
+   },
+   "txtHighlight": {
+      "description": "text of 'Highlight all' menu item",
+      "message": "تعليم الكل"
+   },
+   "txtInitDictionary": {
+      "description": "text of 'Dictionary' bookmark",
+      "message": "قاموس"
+   },
+   "txtInitSearch": {
+      "description": "text of 'Search' bookmark",
+      "message": "بحث"
+   },
+   "txtLngTools": {
+      "description": "text of 'Language tools' menu item",
+      "message": "أدوات اللغة"
+   },
+   "txtMailto": {
+      "description": "text of 'Share via e-mail' menu item",
+      "message": "مشاركة عبر الإيميل"
+   },
+   "txtMsTranslator": {
+      "description": "text of 'Microsoft Translatot' menu item",
+      "message": "مترجم Microsoft"
+   },
+   "txtOK": {
+      "description": "text of 'OK' ",
+      "message": "OK"
+   },
+   "txtOpenUrl": {
+      "description": "text of 'Open as URL' menu item",
+      "message": "فتح كرابط"
+   },
+   "txtOpenUrlAll": {
+      "description": "text of 'Open all in tabs' menu item",
+      "message": "فتح الجميع في تبويبات"
+   },
+   "txtPaste": {
+      "description": "text of 'Paste' menu item",
+      "message": "لصق"
+   },
+   "txtPrefAllowACInTextBox": {
+      "description": "text of preferences 'Allow auto-copy in text boxes' ",
+      "message": "السماح بالنسخ التلقائي في خانات النصوص"
+   },
+   "txtPrefAllowInTextBox": {
+      "description": "text of preferences 'Allow in text boxes' ",
+      "message": "السماح في مربعات النص"
+   },
+   "txtPrefAppearance": {
+      "description": "text of preferences 'Appearance' ",
+      "message": "المظهر"
+   },
+   "txtPrefAutoCopy": {
+      "description": "text of preferences 'Automatically copy selection to clipboard' ",
+      "message": "نسخ النص المحدد تلقائيًا للحافظة"
+   },
+   "txtPrefAutoHighlight": {
+      "description": "text of preferences 'Highlight selected text when opening a bookmark' ",
+      "message": "تظليل النص المحدد عند فتح إشارة مرجعية"
+   },
+   "txtPrefAutoSelectColors": {
+      "description": "text of preferences 'Select colors automatically' ",
+      "message": "اختيار الألوان تلقائيًا"
+   },
+   "txtPrefBackupToFile": {
+      "description": "text of preferences 'Backup to file' ",
+      "message": "نسخ احتياطي إلى ملف"
+   },
+   "txtPrefBkColor": {
+      "description": "text of preferences 'Background' ",
+      "message": "الخلفية"
+   },
+   "txtPrefBlinkOnCopy": {
+      "description": "text of preferences 'Blink on auto-copy' ",
+      "message": "وميض عند النسخ التلقائي"
+   },
+   "txtPrefBookmarkFolder": {
+      "description": "text of preferences 'Bookmark folder' ",
+      "message": "ملف الإشارات المرجعية"
+   },
+   "txtPrefBookmarks": {
+      "description": "text of preferences 'Bookmarks' ",
+      "message": "الإشارات المرجعية"
+   },
+   "txtPrefBorderColor": {
+      "description": "text of preferences 'Border' ",
+      "message": "حد"
+   },
+   "txtPrefBoth": {
+      "description": "text of preferences 'Both' ",
+      "message": "الاثنان"
+   },
+   "txtPrefColor": {
+      "description": "text of preferences 'Color' ",
+      "message": "اللون"
+   },
+   "txtPrefColors": {
+      "description": "text of preferences 'Colors' ",
+      "message": "الألوان"
+   },
+   "txtPrefConfigureShortcuts": {
+      "description": "text of preferences 'Configure keyboard shortcuts' ",
+      "message": "ضبط اختصارات الكيبورد"
+   },
+   "txtPrefContextMenu": {
+      "description": "text of preferences 'Context menu' ",
+      "message": "قائمة السياق"
+   },
+   "txtPrefContribute": {
+      "description": "text of preferences 'Donate' ",
+      "message": "تبرع"
+   },
+   "txtPrefContributeDev": {
+      "description": "text of preferences 'If this extension adds value to your web browsing experience, please support its continued development by making a small donation. Your thoughtfulness is truly appreciated.' ",
+      "message": "إن كانت هذه الإضافة تضفي قيمة لتجربة التصفح الخاصة بك، رجاء ادعم(ي) تطويره المستمر عن طريق التبرع بمبلغ صغير. إعارتك انتبهًا للموضوع مقدَّر بشدة."
+   },
+   "txtPrefConversion": {
+      "description": "text of preferences 'Conversion' ",
+      "message": "التحويل"
+   },
+   "txtPrefConversionDestCur": {
+      "description": "text of preferences 'Destination currency' ",
+      "message": "العملة المحوَّل إليها"
+   },
+   "txtPrefConversionDestLen": {
+      "description": "text of preferences 'Destination length' ",
+      "message": "وحدة الطول المحوَّل إليها"
+   },
+   "txtPrefConversionDestMass": {
+      "description": "text of preferences 'Destination mass' ",
+      "message": "وحدة الكتلة المُحوَّل إليها"
+   },
+   "txtPrefConversionDestTemp": {
+      "description": "text of preferences 'Destination temperature' ",
+      "message": "وحدة الحرارة المحوَّل إليها"
+   },
+   "txtPrefConverterColor": {
+      "description": "text of preferences 'Converter' ",
+      "message": "محوِّل"
+   },
+   "txtPrefCountWords": {
+      "description": "text of preferences 'Enable word counter' ",
+      "message": "تفعيل عداد الكلمات"
+   },
+   "txtPrefCtrlC": {
+      "description": "text of preferences 'Ctrl+C copies the page info when nothing selected' ",
+      "message": "Ctrl+C ينسخ معلومات الصفحة عندما لا يكون شيء محدد"
+   },
+   "txtPrefEnableSelection": {
+      "description": "text of preferences 'Allow text selection on websites that disable this functionality' ",
+      "message": "السماح بتحديد النصوص في المواقع التي تقوم بتعطيل هذه الخاصية"
+   },
+   "txtPrefEngineColor": {
+      "description": "text of preferences 'Translator' ",
+      "message": "مترجم"
+   },
+   "txtPrefFaviconService": {
+      "description": "text of preferences 'Icons source' ",
+      "message": "مصدر الأيقونات"
+   },
+   "txtPrefFontSize": {
+      "description": "text of preferences 'Font size' ",
+      "message": "حجم الخط"
+   },
+   "txtPrefGeneral": {
+      "description": "text of preferences 'General' ",
+      "message": "عامة"
+   },
+   "txtPrefHideOnMoveMouseAway": {
+      "description": "text of preferences 'Hide when mouse moved away' ",
+      "message": "إخفاء عند تحريك الماوس بعيدًا"
+   },
+   "txtPrefHideOnScroll": {
+      "description": "text of preferences 'Hide on page scroll' ",
+      "message": "إخفاء عند تحريك الصفحة"
+   },
+   "txtPrefHighligher": {
+      "description": "text of preferences 'Highlighter' ",
+      "message": "هايلايتر (تظليل النص)"
+   },
+   "txtPrefHistory": {
+      "description": "text of preferences 'Version History' ",
+      "message": "تاريخ الإصدارات"
+   },
+   "txtPrefHold": {
+      "description": "text of preferences 'Hold' ",
+      "message": "ضغط مستمر"
+   },
+   "txtPrefIconPadding": {
+      "description": "text of preferences 'Icon padding' ",
+      "message": "مكان الأيقونة التناسبي"
+   },
+   "txtPrefIconSize": {
+      "description": "text of preferences 'Icon size' ",
+      "message": "حجم الأيقونة"
+   },
+   "txtPrefIconsColor": {
+      "description": "text of preferences 'Icons color' ",
+      "message": "لون الأيقونات"
+   },
+   "txtPrefIgnorePunctuation": {
+      "description": "text of preferences 'Ignore punctuation in the selected text' ",
+      "message": "تجاهل علامات الترقيم في النص المحدد"
+   },
+   "txtPrefImportSearchEngines": {
+      "description": "text of preferences 'Import search engines' ",
+      "message": "استيراد محركات بحث"
+   },
+   "txtPrefInstantConversionKey": {
+      "description": "text of preferences 'for instant conversion' ",
+      "message": "للتحويل الفوري"
+   },
+   "txtPrefInstantHighlighKey": {
+      "description": "text of preferences 'for instant highlight' ",
+      "message": "للتعليم الفوري"
+   },
+   "txtPrefInstantTranslationKey": {
+      "description": "text of preferences 'for instant translation' ",
+      "message": "للترجمة الفورية"
+   },
+   "txtPrefKeepPopup": {
+      "description": "text of preferences 'Keep popup open after action taken' ",
+      "message": "الإبقاء على النافذة المنبثقة بعد تنفيذ الإجراء"
+   },
+   "txtPrefKeepSelection": {
+      "description": "text of preferences 'Keep selection after action taken' ",
+      "message": "الإبقاء على التحديد بعد تنفيذ الإجراء"
+   },
+   "txtPrefLngColor": {
+      "description": "text of preferences 'Language' ",
+      "message": "لغة"
+   },
+   "txtPrefLocalize": {
+      "description": "text of preferences 'Help localize SelectionSK with Crowdin' ",
+      "message": "المساعدة في ترجمة SelectionSK مع Crowdin"
+   },
+   "txtPrefMaintenance": {
+      "description": "text of preferences 'Maintenance' ",
+      "message": "الصيانة"
+   },
+   "txtPrefMenu": {
+      "description": "text of preferences 'Menu' ",
+      "message": "القائمة"
+   },
+   "txtPrefNewIssue": {
+      "description": "text of preferences 'Submit a suggestion or report a bug' ",
+      "message": "تقديم اقتراح أو الإبلاغ عن خطأ"
+   },
+   "txtPrefOpenIn": {
+      "description": "text of preferences 'Open in' ",
+      "message": "فتح في"
+   },
+   "txtPrefOpenInBgTab": {
+      "description": "text of preferences 'New background tab' ",
+      "message": "تبويب خلفي جديد"
+   },
+   "txtPrefOpenInCurrTab": {
+      "description": "text of preferences 'Current tab' ",
+      "message": "التبويب الحالي"
+   },
+   "txtPrefOpenInNewTab": {
+      "description": "text of preferences 'New tab' ",
+      "message": "تبويب جديد"
+   },
+   "txtPrefPadding": {
+      "description": "text of preferences 'Padding' ",
+      "message": "الموضع التناسبي"
+   },
+   "txtPrefPanel": {
+      "description": "text of preferences 'Pane' ",
+      "message": "لوح"
+   },
+   "txtPrefPanelCols": {
+      "description": "text of preferences 'columns' ",
+      "message": "أعمدة"
+   },
+   "txtPrefPanelRows": {
+      "description": "text of preferences 'rows' ",
+      "message": "صفوف"
+   },
+   "txtPrefPopup": {
+      "description": "text of preferences 'Menu popup' ",
+      "message": "نافذة القائمة المنبقة"
+   },
+   "txtPrefPreferences": {
+      "description": "text of preferences 'Preferences' ",
+      "message": "التفضيلات"
+   },
+   "txtPrefRestoreBookmarks": {
+      "description": "text of preferences 'Restore bookmarks' ",
+      "message": "استعادة الإشارات المرجعية"
+   },
+   "txtPrefRestoreBookmarksQ": {
+      "description": "text of preferences 'All bookmarks will be replaced with default values. Continue?' ",
+      "message": "سيتم استبدال جميع الإشارات المرجعية بالقيم الافتراضية. متابعة؟"
+   },
+   "txtPrefRestoreFromFile": {
+      "description": "text of preferences 'Restore from file' ",
+      "message": "استعادة من ملف"
+   },
+   "txtPrefRestorePrefs": {
+      "description": "text of preferences 'Restore defaults' ",
+      "message": "استعادة الافتراضيات"
+   },
+   "txtPrefRestorePrefsQ": {
+      "description": "text of preferences 'All preferences will be replaced with default values. Continue?' ",
+      "message": "سيتم استبدال جميع التفضيلات بالقيم الافتراضية. متابعة؟"
+   },
+   "txtPrefReuseContainer": {
+      "description": "text of preferences 'Open new tab in the container it was opened from' ",
+      "message": "فتح التبويت الجديد في نفس حاوية التبويب الحالي"
+   },
+   "txtPrefRoundness": {
+      "description": "text of preferences 'Roundness' ",
+      "message": "الدورانية"
+   },
+   "txtPrefSave": {
+      "description": "text of preferences 'Save changes' ",
+      "message": "حفظ التغييرات"
+   },
+   "txtPrefSaved": {
+      "description": "text of preferences 'Your preferences have been saved' ",
+      "message": "تم حفظ تفضيلاتك"
+   },
+   "txtPrefShortcutPageTranslate": {
+      "description": "text of preferences 'Keyboard shortcut for page translate' ",
+      "message": "اختصار لوحة المفاتيح لترجمة الصفحة"
+   },
+   "txtPrefShortcutShowConverter": {
+      "description": "text of preferences 'Keyboard shortcut for show converter' ",
+      "message": "اختصار لوحة المفاتيح لعرض المحول"
+   },
+   "txtPrefShow": {
+      "description": "text of preferences 'Show' ",
+      "message": "عرض"
+   },
+   "txtPrefShowAs": {
+      "description": "text of preferences 'Show as' ",
+      "message": "إظهار كـ"
+   },
+   "txtPrefShowItems": {
+      "description": "text of preferences 'Show items' ",
+      "message": "إظهار العناصر"
+   },
+   "txtPrefTemplate": {
+      "description": "text of preferences 'template' ",
+      "message": "قالب"
+   },
+   "txtPrefTranscriptionOwnLine": {
+      "description": "text of preferences 'Transcription on the separate line' ",
+      "message": "نقحرة في سطر منفصل"
+   },
+   "txtPrefTranslation": {
+      "description": "text of preferences 'Translation' ",
+      "message": "الترجمة"
+   },
+   "txtPrefTranslationDefTrans": {
+      "description": "text of preferences 'Default translator' ",
+      "message": "المترجم الافتراضي"
+   },
+   "txtPrefTranslationDestLng": {
+      "description": "text of preferences 'Destination language' ",
+      "message": "اللغة المترجم إليها"
+   },
+   "txtPrefTranslationSelectedLng": {
+      "description": "text of preferences 'Use only following languages' ",
+      "message": "استخدام اللغات التالية فقط"
+   },
+   "txtPrefUnitColor": {
+      "description": "text of preferences 'Unit' ",
+      "message": "وحدة"
+   },
+   "txtPrefUnobtrusive": {
+      "description": "text of preferences 'Unobtrusive mode' ",
+      "message": "الوضع غير البارز"
+   },
+   "txtReverse": {
+      "description": "text of 'Reverse' ",
+      "message": "عكس"
+   },
+   "txtSendTo": {
+      "description": "text of 'Send '%s' to' ",
+      "message": "إرسال '%s' إلى"
+   },
+   "txtShowConverter": {
+      "description": "text of 'Show Converter' ",
+      "message": "عرض المحول"
+   },
+   "txtTracking": {
+      "description": "text of 'Tracking numbers' menu item",
+      "message": "أرقام التتبع"
+   },
+   "txtTranslatePage": {
+      "description": "text of 'Translate this page' ",
+      "message": "ترجمة هذه الصفحة"
+   },
+   "txtTranslateReverse": {
+      "description": "text of 'Swap languages' ",
+      "message": "تبديل اللغتين"
+   },
+   "txtTranslationDetails": {
+      "description": "text of 'Open translation in new tab' ",
+      "message": "فتح الترجمة في تبويب جديد"
+   },
+   "txtUPS": {
+      "description": "text of 'UPS Tracking' menu item",
+      "message": "تعقب UPS"
+   },
+   "txtUSPS": {
+      "description": "text of 'USPS Tracking' menu item",
+      "message": "تعقب USPS"
+   },
+   "txtUrbanDictionary": {
+      "description": "text of 'Urban Dictionary' menu item",
+      "message": "Urban Dictionary"
+   },
+   "txtWordnikDictionary": {
+      "description": "text of 'Wordnik Thesaurus (en)' menu item",
+      "message": "Wordnik Thesaurus (إنجليزي)"
+   },
+   "txtYandexTranslate": {
+      "description": "text of 'Yandex Translate' menu item",
+      "message": "ترجمة Yandex"
+   }
+}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset='utf-8'>
+	<link rel='stylesheet' href='../libs/alerty.css'>
+	<link rel='stylesheet' href='../libs/slimselect.css'>
+	<link rel='stylesheet' href='prefs.css'>
+</head>
+
+<body>
+	<h2 id='prefTitle' style='display:none;'><img src='../icons/SelectionSK_16.png' />&nbsp;&nbsp;<span id='prefTitleTxt'>SelectionSK</span></h2>
+	<form>
+		<fieldset>
+			<legend>&nbsp;<span class='i18n'>txtPrefPreferences</span>&nbsp;</legend>
+			<details class='ssk-details' open>
+				<summary class='i18n ssk-summary'>txtPrefGeneral</summary>
+				<p><label for='prefBookmarkFolder' class='i18n'>txtPrefBookmarkFolder</label>:&nbsp;<input type='text' id='prefBookmarkFolder'></p>
+				<p>
+					<span class='i18n'>txtPrefShow</span>:&nbsp;
+					<input type='radio' id='prefShowPopupOnly' name='show' checked><label for='prefShowPopupOnly' class='i18n'>txtPrefPopup</label>
+					<input type='radio' id='prefShowContextOnly' name='show'><label for='prefShowContextOnly' class='i18n'>txtPrefContextMenu</label>
+					<input type='radio' id='prefShowPopupContext' name='show'><label for='prefShowPopupContext' class='i18n'>txtPrefBoth</label>
+				</p>
+				<p>
+					<input type='checkbox' id='prefAutoCopy'><label for='prefAutoCopy' class='i18n'>txtPrefAutoCopy</label>&nbsp;
+					<input type='checkbox' id='prefAutoCopyPlain'><label for='prefAutoCopyPlain' class='i18n'>txtCopyPlain</label>
+				</p>
+				<p>
+					<input type='checkbox' id='prefAllowACInTextBox'><label for='prefAllowACInTextBox' class='i18n'>txtPrefAllowACInTextBox</label>&nbsp;
+					<input type='checkbox' id='prefBlinkOnCopy'><label for='prefBlinkOnCopy' class='i18n'>txtPrefBlinkOnCopy</label>
+				</p>
+				<p><input type='checkbox' id='prefCountWords'><label for='prefCountWords' class='i18n'>txtPrefCountWords</label></p>
+				<p>
+					<input type='checkbox' id='prefCtrlC'><label for='prefCtrlC' class='i18n'>txtPrefCtrlC</label>,&nbsp;
+					<a href='https://www.w3schools.com/js/js_htmldom_document.asp' target='_blank' class='i18n'>txtPrefTemplate</a>:&nbsp;<input type='text' id='prefCtrlCPattern'>
+				</p>
+				<p>
+					<span class='i18n'>txtPrefOpenIn</span>:&nbsp;
+					<input type='radio' id='prefOpenInNewTab' name='openin' checked><label for='prefOpenInNewTab' class='i18n'>txtPrefOpenInNewTab</label>
+					<input type='radio' id='prefOpenInBgTab' name='openin'><label for='prefOpenInBgTab' class='i18n'>txtPrefOpenInBgTab</label>
+					<input type='radio' id='prefOpenInCurrTab' name='openin'><label for='prefOpenInCurrTab' class='i18n'>txtPrefOpenInCurrTab</label>
+				</p>
+				<p><input type='checkbox' id='prefReuseContainer'><label for='prefReuseContainer' class='i18n'>txtPrefReuseContainer</label></p>
+				<p>
+					<a href='https://bitbucket.org/ashemetov/selectionsk/wiki/FAQ#!what-is-icon-source' target='_blank'><span class='i18n'>txtPrefFaviconService</span></a>:&nbsp;
+					<input type='radio' id='prefFavDuck' name='favicon'><label for='prefFavDuck'>DuckDuckGo</label>
+					<input type='radio' id='prefFavGoogle' name='favicon'><label for='prefFavGoogle'>Google</label>
+				</p>
+				<p><input type='checkbox' id='prefEnableSelection'><label for='prefEnableSelection'><a
+							href='https://bitbucket.org/ashemetov/selectionsk/wiki/FAQ#!what-is-allow-text-selection-on-websites-that-disable-this-functionality'
+							target='_blank'><span class='i18n'>txtPrefEnableSelection</span></a></label></p>
+			</details>
+			<details class='ssk-details' open>
+				<summary class='i18n ssk-summary'>txtPrefPopup</summary>
+				<p>
+					<span class='i18n'>txtPrefShowAs</span>:&nbsp;
+					<input type='radio' id='prefShowAsMenu' name='showas' checked><label for='prefShowAsMenu' class='i18n'>txtPrefMenu</label>
+					<input type='radio' id='prefShowAsPanel' name='showas'><label for='prefShowAsPanel' class='i18n'>txtPrefPanel</label>
+					<input type='radio' id='prefShowAsTranslation' name='showas'><label for='prefShowAsTranslation'
+						class='i18n'>txtPrefTranslation</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type='checkbox' id='prefUnobtrusive'><label for='prefUnobtrusive' class='i18n'>txtPrefUnobtrusive</label>
+				</p>
+				<p>
+					<span class='ssk-indent'><span class='i18n'>txtPrefShowItems</span>:</span>
+					<input type='checkbox' id='prefShowCopy'><label for='prefShowCopy' class='i18n'>txtCopy</label>
+					<input type='checkbox' id='prefShowCopyPlain'><label for='prefShowCopyPlain' class='i18n'>txtCopyPlain</label>
+					<input type='checkbox' id='prefShowCopyHtml'><label for='prefShowCopyHtml' class='i18n'>txtCopyHtml</label>
+				</p>
+				<p>
+					<span class='ssk-indent'></span>
+					<input type='checkbox' id='prefShowGoogleTranslate'><label for='prefShowGoogleTranslate' class='i18n'>txtGoogleTranslate</label>
+					<input type='checkbox' id='prefShowWordnikDictionary'><label for='prefShowWordnikDictionary' class='i18n'>txtWordnikDictionary</label>
+					<input type='checkbox' id='prefShowUrbanDictionary'><label for='prefShowUrbanDictionary' class='i18n'>txtUrbanDictionary</label>
+				</p>
+				<p>
+					<span class='ssk-indent'></span>
+					<input type='checkbox' id='prefShowYandexTranslate'><label for='prefShowYandexTranslate' class='i18n'>txtYandexTranslate</label>
+					<input type='checkbox' id='prefShowMsTranslator'><label for='prefShowMsTranslator' class='i18n'>txtMsTranslator</label>
+				</p>
+				<p>
+					<span class='ssk-indent'></span>
+					<input type='checkbox' id='prefShowOpenUrl'><label for='prefShowOpenUrl' class='i18n'>txtOpenUrl</label>
+					<input type='checkbox' id='prefShowHighlight'><label for='prefShowHighlight' class='i18n'>txtHighlight</label>
+					<input type='checkbox' id='prefShowConvert'><label for='prefShowConvert' class='i18n'>txtConvert</label>
+					<input type='checkbox' id='prefShowTrackingNumbers'><label for='prefShowTrackingNumbers' class='i18n'>txtTracking</label>
+				</p>
+				<p>
+					<span class='ssk-indent'></span>
+					<input type='checkbox' id='prefShowMailto'><label for='prefShowMailto' class='i18n'>txtMailto</label>
+					<input type='checkbox' id='prefShowSearch'><label for='prefShowSearch' class='i18n' id='prefShowSearchLbl'>txtInitSearch</label>
+					<input type='checkbox' id='prefShowBookmarks'><label for='prefShowBookmarks' class='i18n'>txtPrefBookmarks</label>
+				</p>
+				<p><input type='checkbox' id='prefAllowInTextBox'><label for='prefAllowInTextBox'><a
+							href='https://bitbucket.org/ashemetov/selectionsk/wiki/FAQ#!i-installed-selectionsk-and-got-an-annoying-popup-in-text-boxes-is-it-possible-to-disable-it'
+							target='_blank'><span class='i18n'>txtPrefAllowInTextBox</span></a></label></p>
+				<p>
+					<input type='checkbox' id='prefHideOnScroll'><label for='prefHideOnScroll' class='i18n'>txtPrefHideOnScroll</label>
+					<input type='checkbox' id='prefHideOnMoveMouseAway'><label for='prefHideOnMoveMouseAway' class='i18n'>txtPrefHideOnMoveMouseAway</label>
+				</p>
+				<p>
+					<input type='checkbox' id='prefKeepSelection'><label for='prefKeepSelection' class='i18n'>txtPrefKeepSelection</label>
+					<input type='checkbox' id='prefKeepPopup'><label for='prefKeepPopup' class='i18n'>txtPrefKeepPopup</label>
+				</p>
+			</details>
+			<details class='ssk-details' open>
+				<summary class='i18n ssk-summary'>txtPrefTranslation</summary>
+				<p><label for='prefTranslationDestLng' class='i18n'>txtPrefTranslationDestLng</label>:&nbsp;<select id='prefTranslationDestLng'></select></p>
+				<p><label for='prefTranslationSelectLng' class='i18n'>txtPrefTranslationSelectedLng</label>:&nbsp;<select id='prefTranslationSelectedLng' multiple></select></p>
+				<p><label for='prefTranslationDefTrans' class='i18n'>txtPrefTranslationDefTrans</label>:&nbsp;<select id='prefTranslationDefTrans'></select></p>
+				<p id='prefPageTranslate'><a href='https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/commands#Shortcut_values' target='_blank'
+						class='i18n'>txtPrefShortcutPageTranslate</a>:&nbsp;<input type='text' id='prefShortcutPageTranslate' size='15'></p>
+				<p><label for='prefInstantTranslationKey' class='i18n'>txtPrefHold</label>&nbsp;<select id='prefInstantTranslationKey'></select>&nbsp;<label
+						for='prefInstantTranslationKey' class='i18n'>txtPrefInstantTranslationKey</label></p>
+			</details>
+			<details class='ssk-details'>
+				<summary class='i18n ssk-summary'>txtPrefHighligher</summary>
+				<p>
+					<span class='ssk-indent'><label class='i18n'>txtPrefColors</label>:</span>
+					<span id='prefBkColor_0' class='ssk-color-btn'></span><img id='prefText_0' class='ssk-hl-exmpl' /><span id='prefTxColor_0'
+						class='ssk-color-btn'></span>&nbsp;&nbsp;
+					<span id='prefBkColor_1' class='ssk-color-btn'></span><img id='prefText_1' class='ssk-hl-exmpl' /><span id='prefTxColor_1'
+						class='ssk-color-btn'></span>&nbsp;&nbsp;
+					<span id='prefBkColor_2' class='ssk-color-btn'></span><img id='prefText_2' class='ssk-hl-exmpl' /><span id='prefTxColor_2'
+						class='ssk-color-btn'></span>&nbsp;&nbsp;
+					<span id='prefBkColor_3' class='ssk-color-btn'></span><img id='prefText_3' class='ssk-hl-exmpl' /><span id='prefTxColor_3'
+						class='ssk-color-btn'></span>&nbsp;&nbsp;
+					<span id='prefBkColor_4' class='ssk-color-btn'></span><img id='prefText_4' class='ssk-hl-exmpl' /><span id='prefTxColor_4' class='ssk-color-btn'></span>
+				</p>
+				<p>
+					<span class='ssk-indent'></span>
+					<span id='prefBkColor_5' class='ssk-color-btn'></span><img id='prefText_5' class='ssk-hl-exmpl' /><span id='prefTxColor_5'
+						class='ssk-color-btn'></span>&nbsp;&nbsp;
+					<span id='prefBkColor_6' class='ssk-color-btn'></span><img id='prefText_6' class='ssk-hl-exmpl' /><span id='prefTxColor_6'
+						class='ssk-color-btn'></span>&nbsp;&nbsp;
+					<span id='prefBkColor_7' class='ssk-color-btn'></span><img id='prefText_7' class='ssk-hl-exmpl' /><span id='prefTxColor_7'
+						class='ssk-color-btn'></span>&nbsp;&nbsp;
+					<span id='prefBkColor_8' class='ssk-color-btn'></span><img id='prefText_8' class='ssk-hl-exmpl' /><span id='prefTxColor_8'
+						class='ssk-color-btn'></span>&nbsp;&nbsp;
+					<span id='prefBkColor_9' class='ssk-color-btn'></span><img id='prefText_9' class='ssk-hl-exmpl' /><span id='prefTxColor_9' class='ssk-color-btn'></span>
+				</p>
+				<p><input type='checkbox' id='prefAutoSelectColors'><label for='prefAutoSelectColors' class='i18n'>txtPrefAutoSelectColors</label></p>
+				<p><input type='checkbox' id='prefIgnorePunctuation'><label for='prefIgnorePunctuation' class='i18n'>txtPrefIgnorePunctuation</label></p>
+				<p><input type='checkbox' id='prefAutoHighlight'><label for='prefAutoHighlight' class='i18n'>txtPrefAutoHighlight</label></p>
+				<p><label for='prefInstantHighlightKey' class='i18n'>txtPrefHold</label>&nbsp;<select id='prefInstantHighlightKey'></select>&nbsp;<label
+						for='prefInstantHighlightKey' class='i18n'>txtPrefInstantHighlighKey</label></p>
+			</details>
+			<details class='ssk-details'>
+				<summary class='i18n ssk-summary'>txtPrefConversion</summary>
+				<p><label for='prefConversionDestCur' class='i18n'>txtPrefConversionDestCur</label>:&nbsp;<select id='prefConversionDestCur'></select></p>
+				<p><label for='prefConversionDestTemp' class='i18n'>txtPrefConversionDestTemp</label>:&nbsp;<select id='prefConversionDestTemp'></select></p>
+				<p><label for='prefConversionDestMass' class='i18n'>txtPrefConversionDestMass</label>:&nbsp;<select id='prefConversionDestMass'></select></p>
+				<p><label for='prefConversionDestLen' class='i18n'>txtPrefConversionDestLen</label>:&nbsp;<select id='prefConversionDestLen'></select></p>
+				<p id='prefShowConverter'><a href='https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/commands#Shortcut_values' target='_blank'
+						class='i18n'>txtPrefShortcutShowConverter</a>:&nbsp;<input type='text' id='prefShortcutShowConverter' size='15'></p>
+				<p><label for='prefInstantConversionKey' class='i18n'>txtPrefHold</label>&nbsp;<select id='prefInstantConversionKey'></select>&nbsp;<label
+						for='prefInstantConversionKey' class='i18n'>txtPrefInstantConversionKey</label></p>
+			</details>
+			<details class='ssk-details'>
+				<summary class='i18n ssk-summary'>txtPrefAppearance</summary>
+				<p>
+					<span class='ssk-indent'><label class='i18n'>txtPrefMenu</label>:</span>
+					<label for='prefMenuFontSize' class='i18n'>txtPrefFontSize</label>:&nbsp;<input type='number' id='prefMenuFontSize' min='6' max='64' class='ssk-number'>
+					<label class='i18n'>txtPrefColor</label>:&nbsp;<span id='prefMenuFontColor' class='ssk-color-btn'></span>
+					<label class='i18n'>txtPrefIconsColor</label>:&nbsp;<span id='prefMenuIconsColor' class='ssk-color-btn'></span>
+				</p>
+				<p>
+					<span class='ssk-indent'></span>
+					<label class='i18n'>txtPrefBkColor</label>:&nbsp;<span id='prefMenuBkColor' class='ssk-color-btn'></span>
+				</p>
+				<p>
+					<span class='ssk-indent'><label class='i18n'>txtPrefPanel</label>:</span>
+					<input type='number' id='prefPanelItemsN' min='0' max='100' class='ssk-number'>
+					<input type='radio' id='prefPanelItemsNRows' name='panelitems' checked><label for='prefPanelItemsNRows' class='i18n'>txtPrefPanelRows</label>
+					<input type='radio' id='prefPanelItemsNCols' name='panelitems'><label for='prefPanelItemsNCols' class='i18n'>txtPrefPanelCols</label>&nbsp;&nbsp;&nbsp;
+				</p>
+				<p>
+					<span class='ssk-indent'></span><label class='i18n'>txtPrefBkColor</label>:&nbsp;<span id='prefPanelBkColor' class='ssk-color-btn'></span>
+					<label class='i18n'>txtPrefIconsColor</label>:&nbsp;<span id='prefPanelIconsColor' class='ssk-color-btn'></span>
+				</p>
+				<span class='ssk-indent'></span>
+				<label for='prefPanelPadding' class='i18n'>txtPrefPadding</label>:&nbsp;<input type='number' id='prefPanelPadding' min='0' max='50' class='ssk-number'>
+				<label for='prefPanelRoundness' class='i18n'>txtPrefRoundness</label>:&nbsp;<input type='number' id='prefPanelRoundness' min='0' max='50' class='ssk-number'>
+				</p>
+				</p>
+				<span class='ssk-indent'></span>
+				<label for='prefPanelIconSize' class='i18n'>txtPrefIconSize</label>:&nbsp;<input type='number' id='prefPanelIconSize' min='8' max='64'
+					class='ssk-number'>&nbsp;&nbsp;&nbsp;
+				<label for='prefPanelIconPadding' class='i18n'>txtPrefIconPadding</label>:&nbsp;<input type='number' id='prefPanelIconPadding' min='0' max='25' class='ssk-number'>
+				</p>
+				<p>
+					<span class='ssk-indent'><label class='i18n'>txtPrefTranslation</label>:</span>
+					<label for='prefTranslationFontSize' class='i18n'>txtPrefFontSize</label>:&nbsp;<input type='number' id='prefTranslationFontSize' min='6' max='64'
+						class='ssk-number'>
+					<label class='i18n'>txtPrefColor</label>:&nbsp;<span id='prefTranslationFontColor' class='ssk-color-btn'></span>
+					<label class='i18n'>txtPrefIconsColor</label>:&nbsp;<span id='prefTransIconsColor' class='ssk-color-btn'></span>
+				</p>
+				<p>
+					<span class='ssk-indent'></span>
+					<label class='i18n'>txtPrefBkColor</label>:&nbsp;<span id='prefTranslationBkColor' class='ssk-color-btn'></span>
+					<label class='i18n'>txtPrefBorderColor</label>:&nbsp;<span id='prefTranslationBorderColor' class='ssk-color-btn'></span>
+				</p>
+				<p>
+					<span class='ssk-indent'></span>
+					<label class='i18n'>txtPrefLngColor</label>:&nbsp;<span id='prefTranslationLngColor' class='ssk-color-btn'></span>
+					<label class='i18n'>txtPrefEngineColor</label>:&nbsp;<span id='prefTranslationEngineColor' class='ssk-color-btn'></span>
+				</p>
+				<p>
+					<span class='ssk-indent'></span>
+					<input type='checkbox' id='prefTranscriptionOwnLine'><label for='prefTranscriptionOwnLine' class='i18n'>txtPrefTranscriptionOwnLine</label>
+				</p>
+				<p>
+					<span class='ssk-indent'><label class='i18n'>txtPrefConversion</label>:</span>
+					<label for='prefConversionFontSize' class='i18n'>txtPrefFontSize</label>:&nbsp;<input type='number' id='prefConversionFontSize' min='6' max='64'
+						class='ssk-number'>
+					<label class='i18n'>txtPrefColor</label>:&nbsp;<span id='prefConversionFontColor' class='ssk-color-btn'></span>
+					<label class='i18n'>txtPrefIconsColor</label>:&nbsp;<span id='prefConversionIconsColor' class='ssk-color-btn'></span>
+				</p>
+				<p>
+					<span class='ssk-indent'></span>
+					<label class='i18n'>txtPrefBkColor</label>:&nbsp;<span id='prefConversionBkColor' class='ssk-color-btn'></span>
+					<label class='i18n'>txtPrefBorderColor</label>:&nbsp;<span id='prefConversionBorderColor' class='ssk-color-btn'></span>
+				</p>
+				<p>
+					<span class='ssk-indent'></span>
+					<label class='i18n'>txtPrefConverterColor</label>:&nbsp;<span id='prefConversionConverterColor' class='ssk-color-btn'></span>
+					<label class='i18n'>txtPrefUnitColor</label>:&nbsp;<span id='prefConversionUnitColor' class='ssk-color-btn'></span>
+				</p>
+			</details>
+			<details class='ssk-details'>
+				<summary class='i18n ssk-summary'>txtPrefMaintenance</summary>
+				<p>
+					<button id='btnConfigureShortcuts' class='i18n' type='button'>txtPrefConfigureShortcuts</button>
+					<button id='btnRestorePrefs' class='i18n' type='button'>txtPrefRestorePrefs</button>
+					<button id='btnRestoreBookmarks' class='i18n' type='button'>txtPrefRestoreBookmarks</button>
+					<button id='btnBackupToFile' class='i18n' type='button'>txtPrefBackupToFile</button>
+					<input type='file' id='prefSelectedFile' accept='.txt' style='display: none;' />
+					<button id='btnRestoreFromFile' class='i18n' type='button'>txtPrefRestoreFromFile</button>
+				</p>
+				<p>
+					<a href='https://bitbucket.org/ashemetov/selectionsk/wiki/FAQ' target='_blank'>FAQ</a>&nbsp;&nbsp;&nbsp;
+					<a href='https://bitbucket.org/ashemetov/selectionsk/issues/new' target='_blank' class='i18n'>txtPrefNewIssue</a>&nbsp;&nbsp;&nbsp;
+					<a href='https://bitbucket.org/ashemetov/selectionsk/wiki/History' target='_blank' class='i18n'>txtPrefHistory</a>
+				</p>
+				<p>
+					<a href='https://bitbucket.org/ashemetov/selectionsk/wiki/Bookmarks' target='_blank' class='i18n'>txtPrefBookmarks</a>&nbsp;&nbsp;&nbsp;
+					<a href='https://mycroftproject.com/' target='_blank'>Mycroft Project</a>
+				</p>
+				<p>
+					<a href='https://crwd.in/selectionsk/' target='_blank' class='i18n'>txtPrefLocalize</a>
+				</p>
+			</details>
+			<p><button id='btnSave' class='i18n' type='submit'>txtPrefSave</button></p>
+		</fieldset>
+	</form>
+	</p>
+	<div id='prefContribute' class='ssk-contribute-panel'>
+		<p class='i18n'>txtPrefContributeDev</p>
+		<a target='_blank' rel='noopener noreferrer' class='ssk-contribute-btn i18n' href='https://www.paypal.me/selectionsk/'>txtPrefContribute</a>
+	</div>
+	<script src='../libs/alerty.js'></script>
+	<script src='../libs/FileSaver.js'></script>
+	<script src='../libs/slimselect.js'></script>
+	<script src='../libs/vanilla-picker.js'></script>
+	<script src='../consts.js'></script>
+	<script src='../common.js'></script>
+	<script src='prefs.js'></script>
+</body>
+
+</html>
