@@ -1,0 +1,200 @@
+= Project Licenses
+Andrey Shemetov <ashemetov@gmail.com>; Peter J. Mello <admin@petermello.net>
+2.0.0, 2026-03-31: Repository forked on GitHub
+:attribute-missing: drop
+:attribute-undefined: drop
+:copyright: Copyright 2026 Peter J. Mello. All rights reserved.
+:description: Licensing informaton for SelectionSK browser extension.
+:doctype: article
+:experimental:
+:figure-caption!:
+:hide-uri-scheme:
+:htmlsyntax: html
+:icons: font
+:imagesdir: icons
+:keywords: context menu, extension, pop-up, search, web browser
+:revnumber: v2.0
+:sectanchors:
+:sectnums:
+:sectnumlevels: 1
+:showtitle!:
+:table-frame: all
+:table-grid: cols
+:table-stripes: hover
+:tabsize: 4
+:title: SelectionSK Project Licensing
+:toc: macro
+:toclevels: 2
+:toc-placement!:
+:toc-title: Contents
+:version-label!:
+
+////
+SPDX-FileCopyrightText: © 2011–2023, Andrey Shemetov <ashemetov@gmail.com>
+SPDX-FileCopyrightText: © 2026, Peter J. Mello <admin@petermello.net>
+SPDX-License-Identifier: MPL-2.0 OR GPL-3.0-or-later OR LGPL-3.0-or-later
+////
+
+// Attribute references:
+:img-gpl3logo: https://www.gnu.org/graphics/gplv3-or-later.png
+:img-lgpl3logo: https://www.gnu.org/graphics/lgplv3-147x51.png
+:img-mpl2logo: https://miro.medium.com/v2/1*jD1KWX7snRs94LFHsU1-nQ.jpeg
+:img-projicon: SelectionSK_64.png
+:italcapchi: &#120568;
+:msp: &#8195;
+:url-project: https://bitbucket.org/ashemetov/selectionsk
+:url-mpl20: https://www.mozilla.org/MPL/
+:url-gpl30: https://www.gnu.org/licenses/gpl-3.0.html#license-text
+:url-lgpl30: https://www.gnu.org/licenses/lgpl-3.0.html#license-text
+:url-cc0: https://creativecommons.org/publicdomain/zero/1.0/deed
+:url-iconsland: https://web.archive.org/web/20121001222052if_/http://icons-land.com/vista-base-software-icons.php
+:url-illicense: https://web.archive.org/web/20121001222240if_/http://icons-land.com/license-agreements.php#DemoLicenseAgreement
+:url-ghrscholar: https://github.com/RogueScholar
+
+// GitHub admonitions styling:
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:{nbsp}*NOTE:*
+:important-caption: :heavy_exclamation_mark:{nbsp}*ATTENTION:*{nbsp}:heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+[abstract.lead]
+image:{img-projicon}["Green round button",64,64,float="right",role="right",title="SelectionSK icon",link=""]
+The following license applies to all files except those mentioned in the note
+after the license block below.
+
+toc::[]
+
+== License Block
+
+IMPORTANT: [.underline]*Licenses governing content in this repository:*
+* {url-mpl20}[*Mozilla Public License v2.0*]
+* {url-gpl30}[*GNU General Public License, Version 3.0*]
+* {url-lgpl30}[*GNU Lesser General Public License, Version 3.0*]
+* {url-illicense}[Icons-Land Demo License Agreement] (icons only)
+* {url-cc0}[Creative Commons Zero Universal Public Domain Dedication v1.0]
+(configuration and documentation files only)
+
+=== Primary license
+
+[.text-center]
+image::{img-mpl2logo}["Mozilla Public License banner",320,145,align="center",link="{url-mpl20}"]
+
+The contents of this repository are subject to the grants and restrictions set
+forth in the Mozilla Public License, v2.0 (the "`License`"); you may not use its
+contents except in compliance with the License. A copy of the complete text of
+the Mozilla Public License, Version 2.0, can be found here in the file
+link:LICENSES/MPL-2.0.txt[`LICENSES/MPL-2.0.txt`] or obtained from Mozilla at
+{url-mpl20}[mozilla.org/MPL,window=_blank].
+
+Software distributed under the License is distributed on an "AS IS" basis,
+WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the
+specific language governing rights and limitations under the License.
+
+=== Alternative license options
+
+[.text-center]
+image:{img-gpl3logo}["GNU General Public License 3.0 logo",121,51,align="center",link="{url-gpl30}"]
+{msp}{msp}
+image:{img-lgpl3logo}["GNU Lesser General Public License 3.0 logo",147,51,align="center",link="{url-lgpl30}"]
+
+Alternatively, the contents of this repository may be used under the terms of
+either the GNU General Public License, Version 3 or later (the "`GPL`"), or the
+GNU Lesser General Public License, Version 3 or later (the "`LGPL`"), in which
+case the provisions of the GPL or the LGPL are applicable instead of those
+stated in the preceding section. Copies of the complete text of both GNU
+licenses can be found here in the files
+link:LICENSES/GPL-3.0-or-later.txt[`LICENSES/GPL-3.0-or-later.txt`] and
+link:LICENSES/LGPL-3.0-or-later.txt[`LICENSES/LGPL-3.0-or-later.txt`],
+respectively, or at
+https://www.gnu.org/licenses/licenses.html[www.gnu.org/licenses^].
+
+If you wish to permit the use of your fork of this repository only under the
+terms of either GNU alternative license and not allow others to use your version
+of the contents under the terms of the MPL, please indicate your decision by
+deleting the provisions above and replace them with the notice and other
+provisions required by the preferred license(s).
+
+If you do not delete the provisions above, a recipient may use your fork of this
+repository under the terms of any one of: the MPL, the GPL or the LGPL, at their
+option.
+
+The Original Code comprises the {url-project}[SelectionSK browser extension],
+versions 0.1–6.{italcapchi}.
+
+== Attribution
+
+=== Initial developer
+
+The Initial Developer of the Original Code is Andrey Shemetov
+<mailto:ashemetov@gmail.com[617368656D65746F76@676D61696C.636F6D]>. Portions
+created by the Initial Developer are Copyright © 2011-2023. All rights reserved.
+
+=== Other contributors
+
+.Contributor(s):
+* Peter J. Mello ({url-ghrscholar}[@RogueScholar])
+
+== Project logo
+
+The project logo files (found at link:/icons[`icons/SelectionSK_*.png`]) are
+reused with permission from the
+{url-iconsland}[Vista Style Base Software Icons Set v2.0 Free Demo] (originally
+named `Circle_Green`), under the terms of the
+{url-illicense}[Icons-Land Demo License Agreement].
+
+.Icons-Land Demo License Agreement
+[%collapsible]
+====
+This is a legal agreement between You and the Icons-Land. By downloading any
+Demo icons ("`The Icons`") from our website You agree to the following terms:
+
+All of The Icons remain the property of Icons-Land.
+
+The Icons can be used by You for any number of personal or commercial projects
+including software application, mobile application, documentation, presentation,
+computer game, GUI design, web design, web application, advertisement,
+illustration, video for You or for Your clients, without having to pay
+additional licensing fees.
+
+The Icons can be used by any number of developers and designers of Your company.
+
+.You must put backlink with credits to http://www.icons-land.com
+* In case of website You must put a backlink with credits on every page where
+The Icons are used. Link must be placed in easy-to-see and recognizable place.
+* In case of software application You must put a backlink with credits on About
+form of the application.
+* In other cases You must put a backlink with credits on some page or screen of
+Your product or on relative website.
+
+.The license DOES NOT permit following uses:
+* The Icons may no be sold, sublicensed, rented, transferred or otherwise made
+available for use or detached from a product, software application or web page;
+* The Icons may not be modified in shape and/or color;
+
+You may NOT use, or allow anyone else to use The Icons to create pornographic,
+libelous, obscene, or defamatory material.
+
+All icon files are provided "`as is`". You agree not to hold Icons-Land.com
+liable for any damages that may occur due to use, or inability to use, icons or
+image data from Icons-Land.
+====
+
+== Dependent library licenses
+
+See the link:libs/libs_info.txt[`libs/libs_info.txt`] file for more details
+about the vendored library licenses.
+
+:sectnums!:
+
+== Colophon
+
+Document Version: {revnumber}; Last Updated: {revdate}.
+
+NOTE: The terms of either the {url-mpl20}[Mozilla Public License Version 2.0],
+{url-gpl30}[GNU General Public License Version 3.0] or
+{url-lgpl30}[GNU Lesser General Public License Version 3.0], at your option,
+govern the acceptable use of the contents of this repository, unless otherwise
+specified within a specific file.

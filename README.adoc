@@ -1,0 +1,147 @@
+= SelectionSK
+Andrey Shemetov <ashemetov@gmail.com>; Peter J. Mello <admin@petermello.net>
+6.0, 2023-01-06
+:attribute-missing: drop
+:attribute-undefined: drop
+:copyright: Copyright 2026 Peter J. Mello. All rights reserved.
+:description: Licensing informaton for SelectionSK browser extension.
+:doctype: article
+:experimental:
+:figure-caption!:
+:hide-uri-scheme:
+:htmlsyntax: html
+:icons: font
+:imagesdir: icons
+:keywords: context menu, extension, pop-up, search, web browser
+:revnumber: v6.0
+:sectanchors:
+:sectnums:
+:sectnumlevels: 1
+:showtitle:
+:table-frame: all
+:table-grid: cols
+:table-stripes: hover
+:tabsize: 4
+:title: SelectionSK Project Licensing
+:toc: macro
+:toclevels: 2
+:toc-placement!:
+:toc-title: Contents
+:version-label!:
+
+////
+SPDX-FileCopyrightText: © 2011–2023, Andrey Shemetov <ashemetov@gmail.com>
+SPDX-FileCopyrightText: © 2026, Peter J. Mello <admin@petermello.net>
+SPDX-License-Identifier: MPL-2.0 OR GPL-3.0-or-later OR LGPL-3.0-or-later
+////
+
+// Attribute references:
+:img-chromews: https://developer.chrome.com/static/docs/webstore/branding/image/iNEddTyWiMfLSwFD6qGq.png
+:img-mozaddons: https://extensionworkshop.com/assets/img/documentation/publish/get-the-addon-178x60px.dad84b42.png
+:msp: &#8195;
+:url-chromews: https://chrome.google.com/webstore/detail/selectionsk/npohodmlkdednnlbhfegpnhohpgckocf
+:url-crowdin: https://crwd.in/selectionsk/
+:url-mozaddons: https://addons.mozilla.org/en-US/firefox/addon/selectionsk/
+:url-project: https://bitbucket.org/ashemetov/selectionsk
+:url-mpl20: https://www.mozilla.org/MPL/
+:url-gpl30: https://www.gnu.org/licenses/gpl-3.0.html#license-text
+:url-lgpl30: https://www.gnu.org/licenses/lgpl-3.0.html#license-text
+
+// GitHub admonitions styling:
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:{nbsp}*NOTE:*
+:important-caption: :heavy_exclamation_mark:{nbsp}*ATTENTION:*{nbsp}:heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+[.text-center]
+image:{img-chromews}["Chrome Web Store listing",340,96,link={url-chromews},window=_blank]
+{msp}{msp}
+image:{img-mozaddons}["Mozilla Firefox Add-ons listings",178,60,link={url-mozaddons},window=_blank]
+
+[abstract.lead]
+SelectionSK is an extension which automatically pops up the user menu with
+useful tools (copy, search, translation, highlight, etc.) when the text is
+selected with the mouse. The idea beyond the extension is that the text is
+always selected with the purpose, so it is more convenient to automatically
+popup the menu on selection rather than do it in two steps via the context menu.
+
+toc::[]
+
+== Features
+
+* Copy the selected text to the clipboard in various ways: btn:[Copy (Normal)],
+btn:[Copy (Plain Text)] (right-click) and btn:[Copy (HTML)] (middle-click). In
+addition, the extension can be configured to automatically copy any selected
+text to the clipboard without any further interaction.
+* Send the selected text to any of a set of customizable bookmarks targeting any
+web page with a search function. There is a set of 20 sensible default bookmarks
+for popular search engines, online retailers, reference materials, social media,
+translators and package trackers (Google, DuckDuckGo, Bing, StartPage,
+Wikipedia, Google Maps, Google Images, Wolfram Alpha, etc.) and you can add to
+or replace them any way you see fit. A list of validated bookmark URLs for many
+more sites is available in the wiki for your convenience. The true power of this
+tool is the ability to fully adopt to your specific needs by simply managing a
+single bookmarks folder in your browser. Use it for everything from image search
+to currency conversion!
+* Alternatively, the extension can be configured to send the selected text to
+your browser's list of installed search engines (Firefox v63+ only)
+* Right-clicking any of the bookmark buttons will perform the search with the
+selected text wrapped in quotation marks, a/k/a 'phrase search' mode.
+* Middle-clicking any of the search buttons will perform the search and
+automatically highlight all occurrences of the selected text in the results
+page.
+* Translate selected text instantly without having to navigate away using Google
+Translate, DeepL, Wordnik Thesaurus, Urban Dictionary, Yandex Dictionary,
+Microsoft Bing Translator or another favorite translation tool. The translated
+text can be copied to the clipboard, the source or translation can be spoken
+aloud or the translation site can be opened in a new tab (to view pronunciation
+or usage examples, for instance) with just one more click!
+* Open an unlinked URL in a new tab; advanced validation is used to ensure that
+this option is only presented when the text is a valid target for navigation.
+The protocol prefix is not required so bare domain names work fine (provided
+they end in a valid top-level domain) and obfuscated URLs/email addresses like
+`hxxp://website(dot)name(dot)com` or `mail AT provider DOT com` are detected and
+automatically de-obfuscated.
+* Open or copy to the clipboard multiple URLs with a single action instead of
+one at a time.
+* Highlight all occurrences of the selected text on the current page. More than
+one word or phrase can be highlighted, with each subsequent highlight receiving
+a different color. Move backward and forward between highlighted phrases using
+the btn:[W] and btn:[S] keys on your keyboard and when your done the btn:[Esc]
+removes them all and restores the page's normal appearance.
+* Select any amount of currency with its symbol or three-letter abbreviation and
+convert it into the equivalent value in any other currency you wish using live
+spot exchange rates.
+* Bypass restrictions on selecting some or all text on certain websites (like
+FanFiction) that normally prevent users from doing so.
+* Panel mode: Rather than the standard vertical menu with text entries, use a
+small, rectangular floating panel with each bookmark represented by a button
+showing the site's logo that appears right next to your mouse cursor the instant
+you make the selection; button sizes and number of rows (if any) are fully
+customizable, too.
+* Unobtrusive mode: If some sites sometimes lead to accidental selections, they
+can be set to show a small, unobtrusive button for just a few seconds instead of
+the normal menu or panel. If you intended to trigger SelectionSK, clicking the
+button will show your normal interface, otherwise continue browsing without
+having to take action to cancel the search.
+* Send the selected text to a pre-configured recipient via email via a bookmark
+using the `mailto:` protocol; a new email window will open with the selected
+text already added to the body. It is also left copied to the clipboard to allow
+for easy insertion of elements such as images or rich HTML.
+* A toolbar icon for the extension provides easy shortcuts for enabling or
+disabling the extension for individual sites with a left-click or to open the
+extension settings or perform whole-page translations with a right-click (or by
+pressing btn:[Ctrl] + btn:[Shift] + btn:[0]).
+* Optionally, translate on-demand using a keyword prefix in the address bar:
+type 'btn:[t] <word or phrase>' and then btn:[Enter].
+* Search on-demand by adding keyword bookmarks to your SelectionSK folder and
+any time you type 'btn:[<keyword>] <your word or phrase>' in the address bar
+(Firefox only).
+
+== Localization
+
+Help translate SelectionSK into your language by joining the translation team on
+{url-crowdin}[*Crowdin*]!
